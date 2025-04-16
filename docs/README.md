@@ -1,24 +1,45 @@
 ---
-home: true
+pageLayout: home
+pageClass: home-pages
 config:
   -
-    type: hero
-    full: true
-    background: https://random.bookandmusic.cn/api/random-image
+    type: doc-hero
     hero:
       name: Mr.liu Note
-      text: 踮起脚尖，看得更远
-      actions:
-        -
-          theme: brand
-          text: 博客
-          link: /blog/
-        - 
-          theme: brand
-          text: 笔记
-          link: /notes/
-        -
-          theme: alt
-          text: Github
-          link: https://github.com/bookandmusic/
+      tagline: 踮起脚尖，看得更远
+      image: /site.svg
+
+  -
+    type: features
+    features:
+      -
+        title: 博客
+        icon: meteor-icons:blogger
+        details: 博客文章
+        link: /blog/
+      -
+        title: 标签
+        icon: meteor-icons:tag
+        details: 博客文章
+        link: /blog/tags/
+      -
+        title: 分类
+        icon: meteor-icons:folder
+        details: 博客文章
+        link: /blog/categories/
+      -
+        title: 归档
+        icon: clarity:timeline-line
+        details: 博客文章
+        link: /blog/archives/
+      -
+        title: 笔记
+        icon: meteor-icons:book
+        details: 编程开发笔记
+        link: /notes/
+      -
+        title: 关于
+        icon: mdi:about-circle-outline
+        details: 编程开发笔记
+        link: /about/
 ---

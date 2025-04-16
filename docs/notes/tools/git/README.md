@@ -5,6 +5,6 @@ permalink: /git/
 ---
 
 <ImageCard
-  image="/note/git.png"
+  image="/tools/git.png"
   center="true"
 />

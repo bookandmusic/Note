@@ -5,6 +5,6 @@ permalink: /nginx/
 ---
 
 <ImageCard
-  image="/note/nginx.png"
+  image="/tools/nginx.png"
   center="true"
 />

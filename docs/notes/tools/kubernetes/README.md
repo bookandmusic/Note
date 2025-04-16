@@ -5,6 +5,6 @@ permalink: /kubernetes/
 ---
 
 <ImageCard
-  image="/note/kubernetes.png"
+  image="/tools/kubernetes.png"
   center="true"
 />

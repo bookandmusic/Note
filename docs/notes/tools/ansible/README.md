@@ -5,6 +5,6 @@ permalink: /ansible/
 ---
 
 <ImageCard
-  image="/note/ansible.png"
+  image="/tools/ansible.png"
   center="true"
 />

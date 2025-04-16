@@ -10,7 +10,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
   ],
 
   bundler: viteBundler(),
@@ -18,12 +18,12 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://note.bookandmusic.cn',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
-    // docsBranch: '',
+    docsRepo: 'bookandmusic/Note',
+    docsDir: 'docs',
+    docsBranch: 'master',
 
     /* 页内信息 */
     // editLink: true,
@@ -65,19 +65,19 @@ export default defineUserConfig({
     // },
 
     /* 本地搜索, 默认启用 */
-    search: { provider: 'local' },
+    // search: { provider: 'local' },
 
     /**
      * Algolia DocSearch
      * 启用此搜索需要将 本地搜索 search 设置为 false
      * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
      */
-    // search: {
-    //   provider: 'algolia',
-    //   appId: '',
-    //   apiKey: '',
-    //   indexName: '',
-    // },
+    search: {
+      provider: 'algolia',
+      appId: 'C9YU2PEVXB',
+      apiKey: '5eef31dc0ce26cb714532aa51f41b4d1',
+      indexName: 'bookandmusic',
+    },
 
     /**
      * Shiki 代码高亮
@@ -145,17 +145,11 @@ export default defineUserConfig({
      * 评论 comments
      * @see https://theme-plume.vuejs.press/guide/features/comments/
      */
-    // comment: {
-    //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-    //   comment: true,
-    //   repo: '',
-    //   repoId: '',
-    //   category: '',
-    //   categoryId: '',
-    //   mapping: 'pathname',
-    //   reactionsEnabled: true,
-    //   inputPosition: 'top',
-    // },
+    comment: {
+      provider: 'Waline', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+      comment: true,
+      serverURL: 'https://waline.frps.bookandmusic.cn',
+    },
 
     /**
      * 加密功能

@@ -5,6 +5,6 @@ permalink: /docker/
 ---
 
 <ImageCard
-  image="/note/docker.png"
+  image="/tools/docker.png"
   center="true"
 />

@@ -5,6 +5,6 @@ permalink: /linux/
 ---
 
 <ImageCard
-  image="/note/linux.png"
+  image="/tools/linux.png"
   center="true"
 />
