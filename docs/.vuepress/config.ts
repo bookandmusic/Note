@@ -65,19 +65,19 @@ export default defineUserConfig({
     // },
 
     /* 本地搜索, 默认启用 */
-    // search: { provider: 'local' },
+    search: { provider: 'local' },
 
     /**
      * Algolia DocSearch
      * 启用此搜索需要将 本地搜索 search 设置为 false
      * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
      */
-    search: {
-      provider: 'algolia',
-      appId: 'C9YU2PEVXB',
-      apiKey: '5eef31dc0ce26cb714532aa51f41b4d1',
-      indexName: 'bookandmusic',
-    },
+    // search: {
+    //   provider: 'algolia',
+    //   appId: '',
+    //   apiKey: '',
+    //   indexName: '',
+    // },
 
     /**
      * Shiki 代码高亮
