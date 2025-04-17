@@ -14,32 +14,32 @@ config:
     features:
       -
         title: 博客
-        icon: meteor-icons:blogger
-        details: 博客文章
+        icon: 📝
+        details: 技术文章与经验分享
         link: /blog/
       -
         title: 标签
-        icon: meteor-icons:tag
-        details: 博客文章
+        icon: 🏷️
+        details: 主题关键词索引
         link: /blog/tags/
       -
         title: 分类
-        icon: meteor-icons:folder
-        details: 博客文章
+        icon: 🗂️
+        details: 结构化内容导航
         link: /blog/categories/
       -
         title: 归档
-        icon: clarity:timeline-line
-        details: 博客文章
+        icon: 🗃️
+        details: 文章时间轴归整
         link: /blog/archives/
       -
         title: 笔记
-        icon: meteor-icons:book
-        details: 编程开发笔记
+        icon: 📒
+        details: 开发笔记与要点记录
         link: /notes/
       -
         title: 关于
-        icon: mdi:about-circle-outline
-        details: 编程开发笔记
+        icon: 👤
+        details: 作者与本站简介
         link: /about/
 ---

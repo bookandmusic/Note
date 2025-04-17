@@ -17,7 +17,7 @@ config:
     features:
       -
         title: 工具
-        icon: vscode-icons:file-type-rust-toolchain
+        icon: 🛠️
         details: 常用开发工具备忘录
         link: /tools/
 ---
