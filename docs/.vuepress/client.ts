@@ -4,7 +4,7 @@ import { defineClientConfig } from 'vuepress/client'
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
 // import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
 
-import Hitokoto from './components/Hitokoto.vue'
+import About from './components/About.vue'
 
 import './styles/index.css'
 
@@ -17,6 +17,6 @@ export default defineClientConfig({
     // app.component('Swiper', Swiper) // you should install `swiper`
 
     // your custom components
-    app.component('Hitokoto', Hitokoto)
+    app.component('About', About)
   },
 })
